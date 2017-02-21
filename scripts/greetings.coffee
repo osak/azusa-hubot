@@ -1,7 +1,7 @@
-module.exports = (robot) ->
-  robot.respond /おはよう/, (res) ->
+module.exports = (azusa) ->
+  azusa.respond /おはよう/, (res) ->
     res.reply 'おはようございます！'
-  robot.respond /こんにちは/, (res) ->
+  azusa.respond /こんにちは/, (res) ->
     res.reply 'こんにちは！'
-  robot.respond /こんばん(は|わ)/, (res) ->
+  azusa.respond /こんばん(は|わ)/, (res) ->
     res.reply 'こんばんは！'
